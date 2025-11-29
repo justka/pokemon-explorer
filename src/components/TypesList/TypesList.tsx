@@ -1,5 +1,9 @@
-import { Badge } from "../Badge/Badge";
+import { Badge } from "../../UI/Badge/Badge";
 
 export function TypesList() {
-    return <div><Badge>y</Badge></div>;
+  return (
+    <div>
+      <Badge>ylistowany</Badge>
+    </div>
+  );
 }
