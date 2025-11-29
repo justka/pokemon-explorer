@@ -1,4 +1,4 @@
-import BadgeMui from "@mui/material/Badge";
+import { Chip } from "@mui/material";
 export function Badge({ children }: { children: string }) {
-  return <BadgeMui badgeContent={children} color="primary"></BadgeMui>;
+  return <Chip label={children} />;
 }
