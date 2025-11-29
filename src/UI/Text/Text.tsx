@@ -1,8 +1,16 @@
 import { Typography } from "@mui/material";
 
-export function Text({ children, tag }: { children: string; tag: any }) {
+export function Text({
+  className,
+  children,
+  tag,
+}: {
+  className?: string;
+  children: string;
+  tag: any;
+}) {
   return (
-    <Typography variant={tag} component={tag}>
+    <Typography className={className} variant={tag} component={tag}>
       {children}
     </Typography>
   );
